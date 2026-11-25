@@ -4,6 +4,7 @@ import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { MobileTabBar } from "@/components/mobile-tab-bar";
 import { DialogProvider } from "@/components/dialog-provider";
+import { SupportWidget } from "@/components/support-widget";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -57,6 +58,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
             </div>
           </div>
           <MobileTabBar signedIn={Boolean(user)} />
+          {user && <SupportWidget />}
         </DialogProvider>
       </body>
     </html>

@@ -189,6 +189,30 @@ export interface Payout {
   paidAt: string | null;
 }
 
+export interface SupportMessage {
+  id: number;
+  senderType: "USER" | "SUPPORT" | "SYSTEM";
+  senderName: string | null;
+  body: string;
+  readAt: string | null;
+  createdAt: string | null;
+}
+
+export interface SupportConversation {
+  id: number;
+  reference: string;
+  category: string;
+  subject: string | null;
+  status: string;
+  lastMessageAt: string | null;
+  createdAt: string | null;
+  closedAt: string | null;
+  userName: string | null;
+  userEmail: string | null;
+  unread: number;
+  messages?: SupportMessage[];
+}
+
 export interface NotificationItem {
   id: number;
   title: string;

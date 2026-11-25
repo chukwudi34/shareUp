@@ -7,6 +7,7 @@ import {
   BookOpen,
   Building2,
   ClipboardCheck,
+  Headphones,
   LayoutDashboard,
   PieChart,
   RotateCcw,
@@ -24,6 +25,7 @@ const items = [
   { href: "/admin/assets", label: "Assets", icon: Building2, permission: "asset.manage" },
   { href: "/admin/ledger", label: "Ledger", icon: BookOpen, permission: "ledger.view" },
   { href: "/admin/users", label: "Users", icon: Users, permission: "user.manage" },
+  { href: "/admin/support", label: "Support", icon: Headphones, permission: "support.manage" },
   { href: "/admin/audit", label: "Audit trail", icon: ShieldCheck, permission: "audit.view" },
 ];
 
