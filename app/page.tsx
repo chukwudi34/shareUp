@@ -85,13 +85,13 @@ export default async function HomePage() {
             <span className="grid h-4 w-4 place-items-center rounded-full bg-[#49a939] text-white">
               <Check className="h-2.5 w-2.5" strokeWidth={3.5} />
             </span>
-            Buy · Invest · Own Together
+            Buy · Build · Grow Together
           </span>
 
-          <h1 className="mt-5 font-display text-[56px] font-extrabold leading-[0.92] tracking-[-0.05em] text-ink lg:text-[68px]">
-            Own more.
+          <h1 className="mt-5 font-display text-[52px] font-extrabold leading-[0.95] tracking-[-0.045em] text-ink lg:text-[60px]">
+            Alone, we buy.
             <br />
-            <span className="text-grass">Together.</span>
+            <span className="text-grass">Together, we move more.</span>
           </h1>
 
           <p className="mt-5 max-w-[352px] text-[15px] leading-relaxed text-[#3c4a40]">
@@ -122,10 +122,10 @@ export default async function HomePage() {
       <section className="px-3.5 pt-3 md:hidden">
         <div className="relative overflow-hidden rounded-[22px] bg-gradient-to-b from-[#0d7a20] via-[#0a6319] to-[#07460f] px-5 pb-5 pt-6 text-white">
           <div className="relative z-10 max-w-[61%]">
-            <h1 className="font-display text-[33px] font-extrabold leading-[0.95] tracking-[-0.045em] text-white">
-              Own more.
+            <h1 className="font-display text-[27px] font-extrabold leading-[0.97] tracking-[-0.04em] text-white">
+              Alone, we buy.
               <br />
-              <span className="text-[#c8f21b]">Together.</span>
+              <span className="text-[#c8f21b]">Together, we move more.</span>
             </h1>
             <p className="mt-2.5 text-[11.5px] leading-relaxed text-white/85">
               Join people to buy, invest

@@ -40,7 +40,7 @@ export function SiteFooter() {
       </div>
 
       <div className="flex flex-col gap-2 px-1 pt-4 text-[11px] text-muted sm:flex-row sm:items-center sm:justify-between">
-        <p>© {new Date().getFullYear()} ShareUp Technologies Ltd. Own more. Together.</p>
+        <p>© {new Date().getFullYear()} ShareUp Technologies Ltd. Alone, we buy. Together, we move more.</p>
         <div className="flex flex-wrap items-center gap-x-5 gap-y-1.5">
           <Link href="/discover" className="hover:text-brand">Discover</Link>
           <Link href="/create" className="hover:text-brand">Start a purchase</Link>

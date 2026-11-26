@@ -9,13 +9,13 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: {
-    default: "ShareUp — Own more. Together.",
+    default: "ShareUp — Alone, we buy. Together, we move more.",
     template: "%s · ShareUp",
   },
   description:
     "ShareUp is Nigeria's collective ownership marketplace. Buy, invest and own real assets together — with verified suppliers, safeguarded funds and full visibility.",
   openGraph: {
-    title: "ShareUp — Own more. Together.",
+    title: "ShareUp — Alone, we buy. Together, we move more.",
     description: "Buy, invest and own real assets together.",
     images: ["/images/hero-community.webp"],
   },
